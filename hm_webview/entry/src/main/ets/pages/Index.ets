@@ -8,7 +8,7 @@ import Url from '@ohos.url'
 @Entry
 @Component
 struct Index {
-  @State message: string = 'abcd mega';
+  @State message: string = 'abcd';
   private webviewController: webview.WebviewController = new webview.WebviewController()
 
   build() {
